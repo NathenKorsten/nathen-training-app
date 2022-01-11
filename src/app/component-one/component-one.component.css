@@ -1,0 +1,13 @@
+.container{
+    border: 2px solid blue;
+    padding:0.5rem;
+    width: 75vw;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+
+.component-one{
+    color:blue
+}
