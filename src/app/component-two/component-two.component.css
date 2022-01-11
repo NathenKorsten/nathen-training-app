@@ -1,13 +1,13 @@
-.container{
-    border: 2px solid red;
-    width: 75vw;
-    padding: 0.5rem;
-    border-radius: 0.5rem;
-    display: flex;
-    align-items: center;
-    gap: 5rem;
+.container {
+  border: 2px solid red;
+  width: 75vw;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 5rem;
 }
 
-.component-two{
-    color:red;
+.component-two {
+  color: red;
 }

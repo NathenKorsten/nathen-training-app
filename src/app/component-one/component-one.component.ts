@@ -1,20 +1,18 @@
-import { Component, OnInit,  } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-component-one',
   templateUrl: './component-one.component.html',
-  styleUrls: ['./component-one.component.css']
+  styleUrls: ['./component-one.component.css'],
 })
 export class ComponentOneComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
+  componentOneLabel: string = 'Component 1';
 
-  componentOneLabel: string = "Component 1";
-
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
   // Input box text recieved from emitter/output in nested component 3
-  receieveText($event:string){
+  receieveText($event: string) {
     this.componentOneLabel = $event;
   }
 }

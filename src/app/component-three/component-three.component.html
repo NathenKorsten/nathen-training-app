@@ -1,20 +1,21 @@
 <div class="container">
-    <p class="title component-three">
-        Component 3
-    </p>
-    <div class="input-container">
-        <input 
-        placeholder="INPUT" 
-        type="text" 
-        name="" 
-        id="input"
-        #input
-        [(ngModel)]="textBoxIsEmpty"
-        >
-        <button 
-        (click)="getInputValue(input.value)"
-        (click)="sendMessage()"
-        [disabled] = "!textBoxIsEmpty"
-        class="button">BUTTON</button>
-    </div>
+  <p class="title component-three">Component 3</p>
+  <div class="input-container">
+    <input
+      placeholder="INPUT"
+      type="text"
+      name=""
+      id="input"
+      #input
+      [(ngModel)]="textBoxIsEmpty"
+    />
+    <button
+      (click)="getInputValue(input.value)"
+      (click)="sendMessage()"
+      [disabled]="!textBoxIsEmpty"
+      class="button"
+    >
+      BUTTON
+    </button>
+  </div>
 </div>
